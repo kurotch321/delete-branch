@@ -5,7 +5,7 @@ echo "このスクリプトでは現在のブランチとmasterブランチを�
 echo "本当に実行しますか？ (Y/n): "
 read answer
 
-if [[ ! $answer =~ ^[Yy][Ee][Ss]?$ ]]; then
+if [[ ! $answer =~ ^[Yy]?$ ]]; then
     echo "処理を中止しました。"
     exit 1
 fi
